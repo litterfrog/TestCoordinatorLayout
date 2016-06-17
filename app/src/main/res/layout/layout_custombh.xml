@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<android.support.design.widget.FloatingActionButton
+    android:id="@+id/fabtn_custombh"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end|bottom"
+    android:layout_margin="@dimen/fab_margin"
+    android:src="@android:drawable/ic_dialog_email"
+    app:layout_behavior="com.example.fuxinpeng.mybehavior.ScaleBehavior"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabtn_custombh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_email"
+        app:layout_behavior="com.example.fuxinpeng.mybehavior.ScaleBehavior"/>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nv_overlap"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="40dp"
+        android:background="@mipmap/ic_launcher"
+        app:layout_behavior="com.example.fuxinpeng.mybehavior.ScaleBehavior"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_notoverlap"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_margin="@dimen/fab_margin"
+        android:background="@mipmap/ic_launcher"
+        app:layout_behavior="com.example.fuxinpeng.mybehavior.ScaleBehavior"/>
+</android.support.design.widget.CoordinatorLayout>
